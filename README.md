@@ -29,10 +29,10 @@ Some of my projects completed on the course "Data Analysis" from Yandex Practicu
 * [Course program](#date--course-program)
 
 ## :rocket: &nbsp; Basic skills mastered in the course
-Unload, transform, and clean up data using SQL queries.
-Create dashboards using BI tools.
-Run A/B testing to test hypotheses.
-Calculate the key metrics of the company's work and evaluate their significance.
+- Unload, transform, and clean up data using SQL queries.
+- Create dashboards using BI tools.
+- Run A/B testing to test hypotheses.
+- Calculate the key metrics of the company's work and evaluate their significance.
 
 ## :scroll: &nbsp; Examples of completed projects
 
