@@ -23,6 +23,19 @@
 
 Some of my projects completed on the course "Data Analysis" from Yandex Practicum in 2022
 
+## :book: &nbsp; Table of Contents
+* [Basic skills mastered in the course](#rocket--basic-skills-mastered-in-the-course)
+* [Examples of completed projects](#scroll--examples-of-completed-projects)
+* [Course program](#date--course-program)
+
+## :rocket: &nbsp; Basic skills mastered in the course
+Unload, transform, and clean up data using SQL queries.
+Create dashboards using BI tools.
+Run A/B testing to test hypotheses.
+Calculate the key metrics of the company's work and evaluate their significance.
+
+## :scroll: &nbsp; Examples of completed projects
+
 <div>  
   &nbsp; 
 </div>
@@ -30,3 +43,13 @@ Some of my projects completed on the course "Data Analysis" from Yandex Practicu
 | Project name | Description | Dependencies | Illustration | 
 | :---------------------- | :---------------------- | :-- | :---------------------- |
 | Video games success patterns | The aim of the project was to identify patterns that determine the success of the game. The main patterns turned out to be the platform and genre. | *pandas, numpy, matplotlib.pyplot, seaborn, pathlib, scipy, IPython.display* | <a href="https://github.com/Anton-NS/2022_yandex_data_analysis_workshop/tree/main/sprint_05_game_ratings"><img src="./pics/s05_revenue_by_genre.png" alt="Video games revenue by genre" width="170px"/></a> |
+
+## :date: &nbsp; Course program
+- Basic Python
+- Data Preprocessing
+- Eploratory Data analysis
+- Statistical data analysis
+- SQL
+- Business indicators analysis
+- Data-driven business decision making
+- How to Tell a Story with Data
