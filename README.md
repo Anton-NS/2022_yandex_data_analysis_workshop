@@ -26,6 +26,7 @@ Some of my projects completed on the course "Data Analysis" from Yandex Practicu
 <div>  
   &nbsp; 
 </div>
+
 | Project name | Description | Illustration | 
 | :---------------------- | :---------------------- | :---------------------- |
 | Video games success patterns | The aim of the project was to identify patterns that determine the success of the game. The main patterns turned out to be the platform and genre. | 
