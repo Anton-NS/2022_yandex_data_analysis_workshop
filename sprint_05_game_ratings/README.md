@@ -1,4 +1,51 @@
-# Project Composition
+<div align="center">
+
+<div>  
+  &nbsp; 
+</div>
+
+# Sprint 05 Video game ratings
+
+[![Telegram support](https://img.shields.io/badge/Support-Telegram-blue)](https://t.me/anton_siluyanov)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/AntonSiluDS/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siluyanov/)
+
+<div>  
+  &nbsp; 
+</div>
+	
+  :star: **Star me on GitHub — it motivates me a lot!** :star:
+	
+<div>  
+  &nbsp; 
+</div>
+</div>
+
+<blockquote>
+  &nbsp;
+	
+  *“Anton, as always, the project is gorgeous. The hand of a future professional is felt. 😄 Keep it up! 😄”*  
+
+ Reviewer's comment when submitting the project.
+
+  &nbsp;
+
+</blockquote>
+
+## :book: &nbsp; Table of Contents
+
+* [Project Composition](#clipboard--project-composition)
+* [File Structure](#file_cabinet--file-structure)
+* [Dependencies](#notebook_with_decorative_cover--dependencies)
+* [JSight API Language](#trophy--acknowledgments)
+
+## Project Description
+
+Online store "Streamchik", sells computer games all over the world. 
+Historical data on game sales, user and expert ratings, genres and platforms (for example, Xbox or PlayStation) are available from open sources. 
+It is necessary to identify patterns that determine the success of the game. This will allow you to bet on a potentially popular product and plan advertising campaigns.
+
+## :clipboard: &nbsp; Project Composition
 
 1. Project Description
 1. **Step 0**. Getting ready for work
@@ -49,4 +96,31 @@
 1. Appendix 1: The original assignment of the project work
 1. Appendix 2: Data description
 
+## :file_cabinet: &nbsp; File structure
+```
+└── datasets/                 ## Project data sets 
+    ├── games.csv             ## Video games data table
+    ├── games.xlsx            ## Excel data table for quick analysis
+└── sprint_task/              ## Original project assignments
+    ├── games.csv             ## Data table
+    ├── sprint_05_task.pdf    ## Project assignment text
+└── 05-02 Games.ipynb         ## The result of project work in Jupiter Notebook
+```
+## :notebook_with_decorative_cover: &nbsp; Dependencies
 
+- [pandas](https://github.com/pandas-dev/?ysclid=l8u11r14a6299027)
+- [numpy](https://github.com/numpy/numpy)
+- [matplotlib.pyplot](https://github.com/matplotlib/matplotlib?ysclid=l8u12brkax692179597)
+- [seaborn](https://seaborn.pydata.org/)
+- [pathlib](https://docs.python.org/3/library/pathlib.html)
+- [scipy](https://github.com/scipy/scipy?ysclid=l8u13try9u12674764)
+- [IPython.display](https://ipython.org/ipython-doc/3/api/generated/IPython.display.html)
+
+## :trophy: &nbsp; Acknowledgments
+
+I sincerely thank those without whom this project would not have been possible
+
+- [Anaconda](https://www.anaconda.com/)
+- [Jupiter Interactive Notebook](https://github.com/jupyter/notebook)
+- [Cloudshot](https://www.cloudshot.com/)
+- [Geeks for Geeks](https://www.geeksforgeeks.org/)
