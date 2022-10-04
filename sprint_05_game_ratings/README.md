@@ -37,7 +37,7 @@
 * [Project Composition](#clipboard--project-composition)
 * [File Structure](#file_cabinet--file-structure)
 * [Dependencies](#notebook_with_decorative_cover--dependencies)
-* [JSight API Language](#trophy--acknowledgments)
+* [Acknowledgments](#trophy--acknowledgments)
 
 ## Project Description
 
