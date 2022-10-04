@@ -4,7 +4,7 @@
   &nbsp; 
 </div>
 
-# Sprint 05 Video game ratings
+# Sprint 05 Video game success patterns
 
 [![Telegram support](https://img.shields.io/badge/Support-Telegram-blue)](https://t.me/anton_siluyanov)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/AntonSiluDS/)
