@@ -72,7 +72,7 @@ Attraction dynamic
 
 LTV table
 
-<img src="/sprint_07_loss_analysis/pics/s08_ltv_table.png" alt="LTV table" width="870px"/>
+<img src="/sprint_07_loss_analysis/pics/s07_ltv_table.png" alt="LTV table" width="870px"/>
 
 
 ## :clipboard: &nbsp; Project Composition
