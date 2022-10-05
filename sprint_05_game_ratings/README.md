@@ -33,17 +33,40 @@
 </blockquote>
 
 ## :book: &nbsp; Table of Contents
-
+* [Project Description](page_with_curl--project-description)
+* [Project Results](bar_chart--project-description)
 * [Project Composition](#clipboard--project-composition)
+* [Configuration](#clipboard--configuration)
 * [File Structure](#file_cabinet--file-structure)
 * [Dependencies](#notebook_with_decorative_cover--dependencies)
 * [Acknowledgments](#trophy--acknowledgments)
 
-## Project Description
+## :page_with_curl: &nbsp; Project Description
 
 Online store "Streamchik", sells computer games all over the world. 
+
 Historical data on game sales, user and expert ratings, genres and platforms (for example, Xbox or PlayStation) are available from open sources. 
 It is necessary to identify patterns that determine the success of the game. This will allow you to bet on a potentially popular product and plan advertising campaigns.
+
+**Project Characteristics**
+| Fields of activity | Areas of activity | Tools | Skills |
+|:--|:--|:--|:--|
+| Gamedev | Marketing Analyst | Python | Data preprocessing |
+| Online stores |Product Analyst | Pandas| Research data analysis |
+| | | NumPy | Descriptive statistics |
+| | | Matplotlib | Testing statistical hypotheses |
+
+
+
+## :bar_chart: &nbsp; Project Results
+The parameters determining the success of the game in different regions of the world are revealed.
+Data preprocessing and analysis were carried out. The current period for analysis is selected. Portraits of users of each region have been compiled.
+
+Hypotheses have been tested:
+- the average user ratings of the Xbox One and PC platforms are the same;
+- the average user ratings of the Action and Sports genres are different.
+
+The Student's criterion for independent samples was used in the analysis.
 
 ## :clipboard: &nbsp; Project Composition
 
@@ -95,6 +118,31 @@ It is necessary to identify patterns that determine the success of the game. Thi
 1. **Step 7**. General conclusions
 1. Appendix 1: The original assignment of the project work
 1. Appendix 2: Data description
+
+## :clipboard: &nbsp; Configuration
+
+### Local startup configuration
+
+Jupiter Notebook is required to run. You can install it as part of the Anaconda package https://www.anaconda.com/products/distribution
+
+Copy the files to the local directory accessible by your Jupiter Notebook:
+- `05-02 Games.ipynb`  
+- `datasets\games.csv` 
+
+Your local folder should have a structure
+```
+└── datasets/                 ## Project data sets 
+    ├── games.csv             ## Video games data table
+└── 05-02 Games.ipynb         ## The result of project work in Jupiter Notebook
+```
+
+Open Jupiter Notebook in your browser and select Notepad `05-02 Games.ipynb`
+
+✏️ If you need to change the location of the .csv data file, specify the new path in section 3.2 of Jupiter notepad, line 3 
+
+```python
+file_folders = [f'datasets\\', '/datasets/']
+```
 
 ## :file_cabinet: &nbsp; File structure
 ```
