@@ -43,7 +43,7 @@ Some of my projects completed on the course "Data Analysis" from Yandex Practicu
 | Project name | Description | Dependencies | Illustration | 
 | :---------------------- | :---------------------- | :-- | :---------------------- |
 | [Video games success patterns](https://github.com/Anton-NS/2022_yandex_data_analysis_workshop/tree/main/sprint_05_game_ratings) | The aim of the project was to identify patterns that determine the success of the game. The main patterns turned out to be the platform and genre. | *pandas, numpy, matplotlib.pyplot, seaborn, pathlib, scipy, IPython.display* | <a href="https://github.com/Anton-NS/2022_yandex_data_analysis_workshop/tree/main/sprint_05_game_ratings"><img src="./pics/s05_revenue_by_genre.png" alt="Video games revenue by genre" width="170px"/></a> |
-
+| [Loss analysis of the Procrastinate Pro+ application](https://github.com/Anton-NS/2022_yandex_data_analysis_workshop/tree/main/sprint_07_loss_analysis) | Despite huge investments in advertising, the company has been suffering losses for the last few months. The task is to understand the reasons and help the company become profitable again. | *pandas, numpy, matplotlib.pyplot, seaborn, pathlib, scipy, IPython.display, datetime* | <a href="https://github.com/Anton-NS/2022_yandex_data_analysis_workshop/tree/main/sprint_07_loss_analysis"><img src="./pics/s07_new_user_regions.png" alt="New user regions" width="170px"/></a> |
 ## :date: &nbsp; Course program
 - Basic Python
 - Data Preprocessing
