@@ -68,6 +68,14 @@ Hypotheses have been tested:
 
 The Student's criterion for independent samples was used in the analysis.
 
+**project screenshots**
+
+Total sales by platform for 1980-2016
+<img src="/sprint_05_game_ratings/pics/s05_total_sales_by_platform.png" alt="Total sales by platform for 1980-2016" width="824px"/>
+
+Platforms revenue by year of game releases
+<img src="/sprint_05_game_ratings/pics/s05_platforms_revenue.png" alt="LTV table" width="870px"/>
+
 ## :clipboard: &nbsp; Project Composition
 
 1. Project Description
