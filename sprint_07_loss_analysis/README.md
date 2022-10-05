@@ -68,11 +68,12 @@ Conclusions have been drawn based on the data obtained.
 
 Attraction dynamic
 
-<img src="sprint_07_loss_analysis/pics/s07_attraction_dynamic.png" alt="Attraction dynamic" width="523px"/>
+<img src="/sprint_07_loss_analysis/pics/s07_attraction_dynamic.png" alt="Attraction dynamic" width="523px"/>
 
 LTV table
 
-<img src="sprint_07_loss_analysis/pics/s08_ltv_table.png" alt="LTV table" width="870px"/>
+<img src="/sprint_07_loss_analysis/pics/s08_ltv_table.png" alt="LTV table" width="870px"/>
+
 
 ## :clipboard: &nbsp; Project Composition
 1. Project description
@@ -109,8 +110,8 @@ LTV table
    1. User devices
    1. Channels for attracting users
 1. **Step 6**. Marketing expenses
-1. General expenses
-1. User expenses
+   1. General expenses
+   1. User expenses
 1. **Step 7**. Payback of advertising
    1. Total return on advertising
    1. Payback — advertising channels
@@ -127,3 +128,62 @@ LTV table
 1. Appendix 1: The original assignment of the project work
 1. Appendix 2: Data description
 
+## :clipboard: &nbsp; Configuration
+
+### Local startup configuration
+
+Jupiter Notebook is required to run. You can install it as part of the Anaconda package https://www.anaconda.com/products/distribution
+
+Copy the files to the local directory accessible by your Jupiter Notebook:
+- `07-01 loss analysis.ipynb`  
+- `datasets\costs_info_short.csv` 
+- `datasets\orders_info_short.csv` 
+- `datasets\visits_info_short.csv` 
+
+Your local folder should have a structure
+```
+└── datasets/                             ## Project data sets 
+    ├── costs_info_short.csv              ## Advertising campaigns data table
+    ├── orders_info_short.csv             ## Orders data table
+    ├── visits_info_short.csv             ## User visits data table
+└── 07-01 loss analysis.ipynb             ## The result of project work in Jupiter Notebook
+```
+
+Open Jupiter Notebook in your browser and select Notepad `07-01 loss analysis.ipynb`
+
+✏️ If you need to change the location of the .csv data file, specify the new path in section 4.2 of Jupiter notepad, line 4 
+
+```python
+file_folders = [f'datasets\\', '/datasets/']
+```
+
+## :file_cabinet: &nbsp; File structure
+```
+└── datasets/                             ## Project data sets 
+    ├── costs_info_short.csv              ## Advertising campaigns data table
+    ├── orders_info_short.csv             ## Orders data table
+    ├── visits_info_short.csv             ## User visits data table
+└── sprint_task/                          ## Original project assignments
+    ├── sprint_07_datasets.zip            ## Data table
+    ├── sprint_07_task.pdf                ## Project assignment text
+└── 07-01 loss analysis.ipynb             ## The result of project work in Jupiter Notebook
+```
+## :notebook_with_decorative_cover: &nbsp; Dependencies
+
+- [pandas](https://github.com/pandas-dev/?ysclid=l8u11r14a6299027)
+- [numpy](https://github.com/numpy/numpy)
+- [matplotlib.pyplot](https://github.com/matplotlib/matplotlib?ysclid=l8u12brkax692179597)
+- [seaborn](https://seaborn.pydata.org/)
+- [pathlib](https://docs.python.org/3/library/pathlib.html)
+- [scipy](https://github.com/scipy/scipy?ysclid=l8u13try9u12674764)
+- [IPython.display](https://ipython.org/ipython-doc/3/api/generated/IPython.display.html)
+- [datetime](https://docs.python.org/3/library/datetime.html)
+
+## :trophy: &nbsp; Acknowledgments
+
+I sincerely thank those without whom this project would not have been possible
+
+- [Anaconda](https://www.anaconda.com/)
+- [Jupiter Interactive Notebook](https://github.com/jupyter/notebook)
+- [Cloudshot](https://www.cloudshot.com/)
+- [Geeks for Geeks](https://www.geeksforgeeks.org/)
